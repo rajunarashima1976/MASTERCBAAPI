@@ -30,6 +30,7 @@ namespace CBA.Training.Talmate.Api.UnitTests
 
             // Assert
             //Assert.Pass();
+            //Assert.Fail();
             Assert.Fail();
             var okObjectResult = result as OkObjectResult;
             Assert.IsNotNull(okObjectResult);
